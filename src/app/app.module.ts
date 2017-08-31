@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { QuestionListComponent } from './component/question-list/question-list.component';
 import { QuestionComponent } from './component/question/question.component';
+import { AddQuestionComponent } from './component/add-question/add-question.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     QuestionListComponent,
-    QuestionComponent
+    QuestionComponent,
+    AddQuestionComponent
   ],
   imports: [
     BrowserModule,
